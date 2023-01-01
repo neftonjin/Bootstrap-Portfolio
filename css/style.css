@@ -168,6 +168,42 @@ footer {
   padding: 2rem;
 }
 
+a {
+  text-decoration: none;
+  color: #ff2d95 !important;
+}
+
+a:hover {
+  color: #ffffff !important;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #87ceeb 0px 0px 20px, #87ceeb 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #87ceeb 0px 0px 50px, #87ceeb 0px 0px 75px;
+}
+
+/* Boot strap  modified classes */
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.card {
+  margin-top: 1rem;
+  padding: 0;
+  color: black;
+}
+
+.card-body {
+  color: var(--color-theme);
+  background-color: var(--bg-color);
+  text-align: left;
+}
+/* end of bootstrap classes  */
+
 /* Media queries  */
 
 @media (min-width: 768px) {
@@ -210,36 +246,8 @@ footer {
   color: var(--color-theme);
 }
 
-a {
-  text-decoration: none;
-  color: #ff2d95 !important;
-}
 
-a:hover {
-  color: #ffffff !important;
-  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
-    #87ceeb 0px 0px 20px, #87ceeb 0px 0px 30px, #ff2d95 0px 0px 40px,
-    #87ceeb 0px 0px 50px, #87ceeb 0px 0px 75px;
-}
 
-/* Boot strap  modified classes*/
-.container-fluid {
-  padding: 0;
-  margin: 0;
-}
 
-.row {
-  margin: 0;
-}
 
-.card {
-  margin-top: 1rem;
-  padding: 0;
-  color: black;
-}
 
-.card-body {
-  color: var(--color-theme);
-  background-color: var(--bg-color);
-  text-align: left;
-}
